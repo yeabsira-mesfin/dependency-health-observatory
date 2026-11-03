@@ -1,0 +1,24 @@
+{
+  "sample_version": "1.0.0",
+  "selection": "Purposive demonstration: React, deprecated request, stable is-number, plus three dependencies in the pinned webpack manifest comparison. No ecosystem-wide claims.",
+  "packages": [
+    "react",
+    "request",
+    "is-number",
+    "schema-utils",
+    "terser-webpack-plugin",
+    "acorn"
+  ],
+  "downstream": [
+    {
+      "repository": "webpack/webpack",
+      "before": "dfffd6a241bf1d593b3fd31b4b279f96f4a4aab1",
+      "after": "6c9f912af2dfbb3e0e1a2a3ecdc3881c96363432",
+      "packages": [
+        "schema-utils",
+        "terser-webpack-plugin",
+        "acorn"
+      ]
+    }
+  ]
+}

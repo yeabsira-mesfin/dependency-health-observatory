@@ -1,0 +1,592 @@
+{
+  "schema_version": 1,
+  "project": "Dependency Health Observatory",
+  "data_kind": "public API observations",
+  "generated_at": "2026-11-03T22:25:57.271932+00:00",
+  "config": {
+    "sample_version": "1.0.0",
+    "selection": "Purposive demonstration: React, deprecated request, stable is-number, plus three dependencies in the pinned webpack manifest comparison. No ecosystem-wide claims.",
+    "packages": [
+      "react",
+      "request",
+      "is-number",
+      "schema-utils",
+      "terser-webpack-plugin",
+      "acorn"
+    ],
+    "downstream": [
+      {
+        "repository": "webpack/webpack",
+        "before": "v4.47.0",
+        "after": "v5.99.9",
+        "packages": [
+          "schema-utils",
+          "terser-webpack-plugin",
+          "acorn"
+        ]
+      }
+    ]
+  },
+  "packages": [
+    {
+      "name": "react",
+      "latest_version": "19.3.1",
+      "last_release": "2026-10-14T16:47:15.290Z",
+      "days_since_release": 20,
+      "median_release_gap_days": 0.1,
+      "releases_observed": 2999,
+      "deprecated": null,
+      "archived": false,
+      "maintainer_count": 2,
+      "direct_dependency_count": 0,
+      "dependency_ranges": {},
+      "advisories_for_latest": 0,
+      "maintenance_signal": "recent release observed",
+      "replacement_recommendation": null,
+      "releases_last_year": 415,
+      "observed_at": "2026-11-03T22:18:18.081763+00:00",
+      "repository": "react/react",
+      "repository_pushed_at": "2026-10-31T13:53:11Z",
+      "downloads": 244554752,
+      "download_period": {
+        "start": "2026-10-27",
+        "end": "2026-11-02"
+      },
+      "source": "https://registry.npmjs.org/react"
+    },
+    {
+      "name": "request",
+      "latest_version": "2.88.2",
+      "last_release": "2020-02-11T16:35:36.122Z",
+      "days_since_release": 2457,
+      "median_release_gap_days": 8.2,
+      "releases_observed": 126,
+      "deprecated": "request has been deprecated, see https://github.com/request/request/issues/3142",
+      "archived": false,
+      "maintainer_count": 4,
+      "direct_dependency_count": 20,
+      "dependency_ranges": {
+        "qs": "~6.5.2",
+        "aws4": "^1.8.0",
+        "uuid": "^3.3.2",
+        "extend": "~3.0.2",
+        "caseless": "~0.12.0",
+        "isstream": "~0.1.2",
+        "aws-sign2": "~0.7.0",
+        "form-data": "~2.3.2",
+        "mime-types": "~2.1.19",
+        "oauth-sign": "~0.9.0",
+        "safe-buffer": "^5.1.2",
+        "tough-cookie": "~2.5.0",
+        "tunnel-agent": "^0.6.0",
+        "forever-agent": "~0.6.1",
+        "har-validator": "~5.1.3",
+        "is-typedarray": "~1.0.0",
+        "http-signature": "~1.2.0",
+        "combined-stream": "~1.0.6",
+        "performance-now": "^2.1.0",
+        "json-stringify-safe": "~5.0.1"
+      },
+      "advisories_for_latest": 1,
+      "maintenance_signal": "explicitly deprecated",
+      "replacement_recommendation": null,
+      "releases_last_year": 0,
+      "observed_at": "2026-11-03T22:18:30.126538+00:00",
+      "repository": "request/request",
+      "repository_pushed_at": "2024-08-14T00:09:41Z",
+      "downloads": 15289642,
+      "download_period": {
+        "start": "2026-10-27",
+        "end": "2026-11-02"
+      },
+      "source": "https://registry.npmjs.org/request"
+    },
+    {
+      "name": "is-number",
+      "latest_version": "7.0.0",
+      "last_release": "2018-07-04T15:08:58.238Z",
+      "days_since_release": 3044,
+      "median_release_gap_days": 59.6,
+      "releases_observed": 15,
+      "deprecated": null,
+      "archived": false,
+      "maintainer_count": 3,
+      "direct_dependency_count": 0,
+      "dependency_ranges": {},
+      "advisories_for_latest": 0,
+      "maintenance_signal": "possibly inactive",
+      "replacement_recommendation": null,
+      "releases_last_year": 0,
+      "observed_at": "2026-11-03T22:18:42.531985+00:00",
+      "repository": "jonschlinkert/is-number",
+      "repository_pushed_at": "2022-09-15T14:46:56Z",
+      "downloads": 225153674,
+      "download_period": {
+        "start": "2026-10-27",
+        "end": "2026-11-02"
+      },
+      "source": "https://registry.npmjs.org/is-number"
+    },
+    {
+      "name": "schema-utils",
+      "latest_version": "4.8.2",
+      "last_release": "2026-10-31T16:52:44.881Z",
+      "days_since_release": 3,
+      "median_release_gap_days": 20.0,
+      "releases_observed": 50,
+      "deprecated": null,
+      "archived": false,
+      "maintainer_count": 6,
+      "direct_dependency_count": 4,
+      "dependency_ranges": {
+        "ajv": "^8.20.0",
+        "ajv-formats": "^3.0.1",
+        "ajv-keywords": "^5.1.0",
+        "@types/json-schema": "^7.0.15"
+      },
+      "advisories_for_latest": 0,
+      "maintenance_signal": "recent release observed",
+      "replacement_recommendation": null,
+      "releases_last_year": 7,
+      "observed_at": "2026-11-03T22:26:00.844957+00:00",
+      "repository": "webpack/schema-utils",
+      "repository_pushed_at": "2026-11-01T11:48:44Z",
+      "downloads": 152249452,
+      "download_period": {
+        "start": "2026-10-27",
+        "end": "2026-11-02"
+      },
+      "source": "https://registry.npmjs.org/schema-utils"
+    },
+    {
+      "name": "terser-webpack-plugin",
+      "latest_version": "5.6.1",
+      "last_release": "2026-05-27T17:31:34.637Z",
+      "days_since_release": 160,
+      "median_release_gap_days": 10.6,
+      "releases_observed": 89,
+      "deprecated": null,
+      "archived": false,
+      "maintainer_count": 3,
+      "direct_dependency_count": 4,
+      "dependency_ranges": {
+        "terser": "^5.31.1",
+        "jest-worker": "^27.4.5",
+        "schema-utils": "^4.3.0",
+        "@jridgewell/trace-mapping": "^0.3.25"
+      },
+      "advisories_for_latest": 0,
+      "maintenance_signal": "recent release observed",
+      "replacement_recommendation": null,
+      "releases_last_year": 7,
+      "observed_at": "2026-11-03T22:26:14.543107+00:00",
+      "repository": "webpack/minimizer-webpack-plugin",
+      "repository_pushed_at": "2026-10-30T13:59:49Z",
+      "downloads": 55726927,
+      "download_period": {
+        "start": "2026-10-27",
+        "end": "2026-11-02"
+      },
+      "source": "https://registry.npmjs.org/terser-webpack-plugin"
+    },
+    {
+      "name": "acorn",
+      "latest_version": "8.19.0",
+      "last_release": "2026-10-05T12:51:20.979Z",
+      "days_since_release": 29,
+      "median_release_gap_days": 19.0,
+      "releases_observed": 141,
+      "deprecated": null,
+      "archived": false,
+      "maintainer_count": 3,
+      "direct_dependency_count": 0,
+      "dependency_ranges": {},
+      "advisories_for_latest": 0,
+      "maintenance_signal": "recent release observed",
+      "replacement_recommendation": null,
+      "releases_last_year": 4,
+      "observed_at": "2026-11-03T22:26:31.363725+00:00",
+      "repository": "acornjs/acorn",
+      "repository_pushed_at": "2026-10-21T04:54:03Z",
+      "downloads": 328972949,
+      "download_period": {
+        "start": "2026-10-27",
+        "end": "2026-11-02"
+      },
+      "source": "https://registry.npmjs.org/acorn"
+    }
+  ],
+  "downstream": [
+    {
+      "package": "schema-utils",
+      "outcome": "range updated",
+      "before_range": "^1.0.0",
+      "after_range": "^4.3.2",
+      "resolved_version": null,
+      "right_censored": false,
+      "response_days_upper_bound": null,
+      "repository": "webpack/webpack",
+      "before_ref": "v4.47.0",
+      "after_ref": "v5.99.9",
+      "commits": {
+        "before": {
+          "sha": "dfffd6a241bf1d593b3fd31b4b279f96f4a4aab1",
+          "date": "2023-09-06T17:15:50Z"
+        },
+        "after": {
+          "sha": "6c9f912af2dfbb3e0e1a2a3ecdc3881c96363432",
+          "date": "2025-05-20T11:50:38Z"
+        }
+      },
+      "dependency_kind": "declared direct range; lockfile not observed",
+      "attribution": "Manifest difference only; no inferred causal response or replacement"
+    },
+    {
+      "package": "terser-webpack-plugin",
+      "outcome": "range updated",
+      "before_range": "^1.4.3",
+      "after_range": "^5.3.11",
+      "resolved_version": null,
+      "right_censored": false,
+      "response_days_upper_bound": null,
+      "repository": "webpack/webpack",
+      "before_ref": "v4.47.0",
+      "after_ref": "v5.99.9",
+      "commits": {
+        "before": {
+          "sha": "dfffd6a241bf1d593b3fd31b4b279f96f4a4aab1",
+          "date": "2023-09-06T17:15:50Z"
+        },
+        "after": {
+          "sha": "6c9f912af2dfbb3e0e1a2a3ecdc3881c96363432",
+          "date": "2025-05-20T11:50:38Z"
+        }
+      },
+      "dependency_kind": "declared direct range; lockfile not observed",
+      "attribution": "Manifest difference only; no inferred causal response or replacement"
+    },
+    {
+      "package": "acorn",
+      "outcome": "range updated",
+      "before_range": "^6.4.1",
+      "after_range": "^8.14.0",
+      "resolved_version": null,
+      "right_censored": false,
+      "response_days_upper_bound": null,
+      "repository": "webpack/webpack",
+      "before_ref": "v4.47.0",
+      "after_ref": "v5.99.9",
+      "commits": {
+        "before": {
+          "sha": "dfffd6a241bf1d593b3fd31b4b279f96f4a4aab1",
+          "date": "2023-09-06T17:15:50Z"
+        },
+        "after": {
+          "sha": "6c9f912af2dfbb3e0e1a2a3ecdc3881c96363432",
+          "date": "2025-05-20T11:50:38Z"
+        }
+      },
+      "dependency_kind": "declared direct range; lockfile not observed",
+      "attribution": "Manifest difference only; no inferred causal response or replacement"
+    }
+  ],
+  "errors": [],
+  "sources": [
+    {
+      "url": "https://registry.npmjs.org/react",
+      "observed_at": "2026-11-03T22:18:18.081763+00:00",
+      "sha256": "cf29eef5cf391e0a8c86f786684d440076afc6581e273688d6f983c9876e4a83",
+      "status": 200,
+      "request_body": null,
+      "etag": "\"d1423fe9078f775f8e1e932aecac7609\"",
+      "cache_hit": true
+    },
+    {
+      "url": "https://api.github.com/repos/react/react",
+      "observed_at": "2026-11-03T22:18:21.188695+00:00",
+      "sha256": "3d7e5df6adcd0dd7b47183a140486f55ae18ecdb36625ca62e99c79131059fcd",
+      "status": 200,
+      "request_body": null,
+      "etag": "W/\"0c07716ef54f1f350c067b091b7e8a2cd87c2328568c4903246ac2b0dc71895a\"",
+      "cache_hit": true
+    },
+    {
+      "url": "https://api.osv.dev/v1/query",
+      "observed_at": "2026-11-03T22:18:24.318981+00:00",
+      "sha256": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+      "status": 200,
+      "request_body": {
+        "package": {
+          "ecosystem": "npm",
+          "name": "react"
+        },
+        "version": "19.3.1"
+      },
+      "etag": null,
+      "cache_hit": true
+    },
+    {
+      "url": "https://api.npmjs.org/downloads/point/last-week/react",
+      "observed_at": "2026-11-03T22:18:27.421140+00:00",
+      "sha256": "042caa045fcd8657e5d919a7d4dff30f1238b0d11a53a6a4f0e65e18c6703554",
+      "status": 200,
+      "request_body": null,
+      "etag": null,
+      "cache_hit": true
+    },
+    {
+      "url": "https://registry.npmjs.org/request",
+      "observed_at": "2026-11-03T22:18:30.126538+00:00",
+      "sha256": "3c7ae41614505170398581c3b42b51795738c8e28c5b16bcf98066537371a5a3",
+      "status": 200,
+      "request_body": null,
+      "etag": "\"6ba43b1c842aff034335a5def2d7ec34\"",
+      "cache_hit": true
+    },
+    {
+      "url": "https://api.github.com/repos/request/request",
+      "observed_at": "2026-11-03T22:18:33.219967+00:00",
+      "sha256": "0d9d87c4cdc885fc0bb52862c3b1ddb89e5dbec24c700b44381309c386064ef1",
+      "status": 200,
+      "request_body": null,
+      "etag": "W/\"8e09536aeeff3159dd16f2e2e77c2e490b36275fd862fb9f3f5fd8c7a6e5859e\"",
+      "cache_hit": true
+    },
+    {
+      "url": "https://api.osv.dev/v1/query",
+      "observed_at": "2026-11-03T22:18:36.003185+00:00",
+      "sha256": "f94d8d90327147eb056acb0fe5d2163591166ca2a2098cec57af5beda7a82953",
+      "status": 200,
+      "request_body": {
+        "package": {
+          "ecosystem": "npm",
+          "name": "request"
+        },
+        "version": "2.88.2"
+      },
+      "etag": null,
+      "cache_hit": true
+    },
+    {
+      "url": "https://api.npmjs.org/downloads/point/last-week/request",
+      "observed_at": "2026-11-03T22:18:39.774325+00:00",
+      "sha256": "df834aa2eb362fc44515f9e810ee1af5a90f4c91532bdf214eaadaed5023e2b6",
+      "status": 200,
+      "request_body": null,
+      "etag": null,
+      "cache_hit": true
+    },
+    {
+      "url": "https://registry.npmjs.org/is-number",
+      "observed_at": "2026-11-03T22:18:42.531985+00:00",
+      "sha256": "8fdfbca6f95aa058e4e228ec3a4dc76b5b0a9f53354f06681a3effb2fca7ef92",
+      "status": 200,
+      "request_body": null,
+      "etag": "\"5cefdbc91d0fe57d1c3110d2a0141612\"",
+      "cache_hit": true
+    },
+    {
+      "url": "https://api.github.com/repos/jonschlinkert/is-number",
+      "observed_at": "2026-11-03T22:18:45.665201+00:00",
+      "sha256": "65e58c54e00217a1537e81a0e4330056a6225d05532018bbb409382b934b07d9",
+      "status": 200,
+      "request_body": null,
+      "etag": "W/\"be91ec3c5227139fd6cf3f2d34ffb184351d33ce369d5239e44f9adf395f1f79\"",
+      "cache_hit": true
+    },
+    {
+      "url": "https://api.osv.dev/v1/query",
+      "observed_at": "2026-11-03T22:18:49.601400+00:00",
+      "sha256": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+      "status": 200,
+      "request_body": {
+        "package": {
+          "ecosystem": "npm",
+          "name": "is-number"
+        },
+        "version": "7.0.0"
+      },
+      "etag": null,
+      "cache_hit": true
+    },
+    {
+      "url": "https://api.npmjs.org/downloads/point/last-week/is-number",
+      "observed_at": "2026-11-03T22:18:52.589236+00:00",
+      "sha256": "28d74a80615991e0550be71dcc08480635faad4d32fa99cb6aa07ba178633531",
+      "status": 200,
+      "request_body": null,
+      "etag": null,
+      "cache_hit": true
+    },
+    {
+      "url": "https://registry.npmjs.org/schema-utils",
+      "observed_at": "2026-11-03T22:26:00.844957+00:00",
+      "sha256": "35d1db89624c0d5943e644620340a6a4c183b6d9ac1e1e34ea04a2488d5787e4",
+      "status": 200,
+      "request_body": null,
+      "etag": "\"7f5826ff4ade02dc152c399da6971922\"",
+      "cache_hit": false
+    },
+    {
+      "url": "https://api.github.com/repos/webpack/schema-utils",
+      "observed_at": "2026-11-03T22:26:04.163853+00:00",
+      "sha256": "490f8db75365041e515d61ab1a67d1825aa43445fdb25ead86c150b11f20d438",
+      "status": 200,
+      "request_body": null,
+      "etag": "W/\"95ab94bbb783b23e69d06b8c3a992534f48fab4fe4ee034c2273ae0d857b1254\"",
+      "cache_hit": false
+    },
+    {
+      "url": "https://api.osv.dev/v1/query",
+      "observed_at": "2026-11-03T22:26:07.511797+00:00",
+      "sha256": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+      "status": 200,
+      "request_body": {
+        "package": {
+          "ecosystem": "npm",
+          "name": "schema-utils"
+        },
+        "version": "4.8.2"
+      },
+      "etag": null,
+      "cache_hit": false
+    },
+    {
+      "url": "https://api.npmjs.org/downloads/point/last-week/schema-utils",
+      "observed_at": "2026-11-03T22:26:11.245532+00:00",
+      "sha256": "159df629609ae4d116d05fbed123f928e80b573781776dc0aa3d892234ced725",
+      "status": 200,
+      "request_body": null,
+      "etag": null,
+      "cache_hit": false
+    },
+    {
+      "url": "https://registry.npmjs.org/terser-webpack-plugin",
+      "observed_at": "2026-11-03T22:26:14.543107+00:00",
+      "sha256": "73d54c221f0f7517d9d9ba78d38d946b587b606a8bd79ec2d2aa57ee7f0d20c9",
+      "status": 200,
+      "request_body": null,
+      "etag": "\"e23e3821b7a5a3f81182bcc0eb6294c2\"",
+      "cache_hit": false
+    },
+    {
+      "url": "https://api.github.com/repos/webpack/minimizer-webpack-plugin",
+      "observed_at": "2026-11-03T22:26:19.831839+00:00",
+      "sha256": "72aa8870558294f10f5aea757f065e129e3987dd0e7720b00f152c499898ef53",
+      "status": 200,
+      "request_body": null,
+      "etag": "W/\"4789ecbe20c38a4122f21b0f1112a324a794e19d7c9097ac59a2c511ad63b98c\"",
+      "cache_hit": false
+    },
+    {
+      "url": "https://api.osv.dev/v1/query",
+      "observed_at": "2026-11-03T22:26:23.355606+00:00",
+      "sha256": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+      "status": 200,
+      "request_body": {
+        "package": {
+          "ecosystem": "npm",
+          "name": "terser-webpack-plugin"
+        },
+        "version": "5.6.1"
+      },
+      "etag": null,
+      "cache_hit": false
+    },
+    {
+      "url": "https://api.npmjs.org/downloads/point/last-week/terser-webpack-plugin",
+      "observed_at": "2026-11-03T22:26:27.642043+00:00",
+      "sha256": "a26b51a9c3566537a819de7f0a28c8a7195460d55e5b901c1a2570653bc18499",
+      "status": 200,
+      "request_body": null,
+      "etag": null,
+      "cache_hit": false
+    },
+    {
+      "url": "https://registry.npmjs.org/acorn",
+      "observed_at": "2026-11-03T22:26:31.363725+00:00",
+      "sha256": "cc1130ea76d12c9ceb6636ee8e933e2bd157773b4f4714fee38383d6da7048b2",
+      "status": 200,
+      "request_body": null,
+      "etag": "\"f4d10430adef831f483c527e3dd4d0d1\"",
+      "cache_hit": false
+    },
+    {
+      "url": "https://api.github.com/repos/acornjs/acorn",
+      "observed_at": "2026-11-03T22:26:34.919358+00:00",
+      "sha256": "c6747a96eb461c2632c751eb13d42508cd60e3e1fa136a09cd0384272b336172",
+      "status": 200,
+      "request_body": null,
+      "etag": "W/\"04e4f8875e29e905129d3ac251ada52cf7af4f8938a06f9b17ea344b2dd45564\"",
+      "cache_hit": false
+    },
+    {
+      "url": "https://api.osv.dev/v1/query",
+      "observed_at": "2026-11-03T22:26:38.405221+00:00",
+      "sha256": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+      "status": 200,
+      "request_body": {
+        "package": {
+          "ecosystem": "npm",
+          "name": "acorn"
+        },
+        "version": "8.19.0"
+      },
+      "etag": null,
+      "cache_hit": false
+    },
+    {
+      "url": "https://api.npmjs.org/downloads/point/last-week/acorn",
+      "observed_at": "2026-11-03T22:26:42.410791+00:00",
+      "sha256": "e5dd2a0af6d03a66433c527c1340531fbcc5233f092b9ef152d48aafd252708f",
+      "status": 200,
+      "request_body": null,
+      "etag": null,
+      "cache_hit": false
+    },
+    {
+      "url": "https://api.github.com/repos/webpack/webpack/commits/v4.47.0",
+      "observed_at": "2026-11-03T22:18:56.025868+00:00",
+      "sha256": "d1ed4f7b15022bfef1fda93b61316990306d915ab1bfcfdcac1cd16eb82fd7ea",
+      "status": 200,
+      "request_body": null,
+      "etag": "W/\"020bb88e25d0c1bac027eeb5f9043f0c1953e0dc9e040b6965dbc0e8e6b8f6c8\"",
+      "cache_hit": true
+    },
+    {
+      "url": "https://api.github.com/repos/webpack/webpack/contents/package.json?ref=dfffd6a241bf1d593b3fd31b4b279f96f4a4aab1",
+      "observed_at": "2026-11-03T22:19:00.291648+00:00",
+      "sha256": "e24822f967303030b035275a5e502bfb1bf3115687c2c27f54051d38d111a1da",
+      "status": 200,
+      "request_body": null,
+      "etag": "\"cfecabff9e860a262d5675c8c929609c48bf5a0f\"",
+      "cache_hit": true
+    },
+    {
+      "url": "https://api.github.com/repos/webpack/webpack/commits/v5.99.9",
+      "observed_at": "2026-11-03T22:19:03.540414+00:00",
+      "sha256": "fca9e63691ceb6df04ad655754f572d75aaf28253edafb03d19903387dc2bac9",
+      "status": 200,
+      "request_body": null,
+      "etag": "W/\"829830a353c61986dda62f39814301875d1fc86d9c61596496f597df3fd05788\"",
+      "cache_hit": true
+    },
+    {
+      "url": "https://api.github.com/repos/webpack/webpack/contents/package.json?ref=6c9f912af2dfbb3e0e1a2a3ecdc3881c96363432",
+      "observed_at": "2026-11-03T22:19:06.595931+00:00",
+      "sha256": "acef13884e20258dc51feaf02b85a85309be20c9f86b8858571b6b11d9c2caf7",
+      "status": 200,
+      "request_body": null,
+      "etag": "\"73569443e66d5798b13cf8d3968f6b6b00445573\"",
+      "cache_hit": true
+    }
+  ],
+  "request_count": 12,
+  "limitations": [
+    "Convenience sample; not representative of npm.",
+    "Release recency alone does not establish abandonment.",
+    "Security query covers only latest exact versions, not downstream ranges.",
+    "No deprecation onset date: response-time inference is unavailable.",
+    "Two pinned manifests detect range changes, not causal migration or precise event timing."
+  ]
+}

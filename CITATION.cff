@@ -1,0 +1,9 @@
+cff-version: 1.2.0
+message: "Please cite this independent software instrument; it is not a peer-reviewed study."
+title: "Dependency Health Observatory"
+type: software
+version: 1.0.0
+license: MIT
+authors:
+  - family-names: Mesfin
+    given-names: Yeabsira

@@ -1,0 +1,7 @@
+name,latest_version,days_since_release,maintenance_signal,archived,advisories_for_latest,downloads,observed_at
+react,19.3.1,20,recent release observed,False,0,244554752,2026-11-03T22:18:18.081763+00:00
+request,2.88.2,2457,explicitly deprecated,False,1,15289642,2026-11-03T22:18:30.126538+00:00
+is-number,7.0.0,3044,possibly inactive,False,0,225153674,2026-11-03T22:18:42.531985+00:00
+schema-utils,4.8.2,3,recent release observed,False,0,152249452,2026-11-03T22:26:00.844957+00:00
+terser-webpack-plugin,5.6.1,160,recent release observed,False,0,55726927,2026-11-03T22:26:14.543107+00:00
+acorn,8.19.0,29,recent release observed,False,0,328972949,2026-11-03T22:26:31.363725+00:00
